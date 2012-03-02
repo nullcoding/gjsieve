@@ -1,0 +1,15 @@
+#summary About this application
+
+= Introduction =
+
+gjsieve is a small experiment in Proth number testing
+
+= Details =
+
+gjsieve is a C++ application to demonstrate Proth number functionality with the formula originally set down by French mathematician Francois Proth N = k*(2^n)-1, where:
+
+  * N is a Proth number
+  * k is a positive, odd integer
+  * n is a positive integer such that 2^n is greater than k
+ 
+(in progress)
