@@ -1,0 +1,15 @@
+#summary To-Do
+
+= Unfinished =
+
+  * allow user to pick an input value of k 1 through 50
+  * make iterative algorithm testing from n=2 through n=50
+  * automatically make lowest n value smallest value for which 2^n > k
+  * print results of iterative algorithm to stdout
+  * display list of all primes that exist (that is all N for ( i == N )
+
+= Done = 
+
+  * loop function (v2 JB)
+  * prompt user for additional input or exit (v2 JB)
+  * change from (if yes) to do-while (v3 GA)
