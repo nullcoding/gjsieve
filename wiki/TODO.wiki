@@ -2,6 +2,7 @@
 
 = Unfinished =
 
+  * rewrite for unsigned long
   * allow user to pick an input value of k 1 through 50
   * make iterative algorithm testing from n=2 through n=50
   * automatically make lowest n value smallest value for which 2^n > k
