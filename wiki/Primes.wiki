@@ -1,4 +1,5 @@
 #summary small Proth primes
+#labels Featured,Phase-Deploy
 
 = Values of k and n to try =
 
