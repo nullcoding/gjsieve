@@ -2,7 +2,7 @@
 
 = Introduction =
 
-gjsieve is a small experiment in Proth number testing
+gjsieve is a small experiment in Proth number testing. It is _not_ meant to be used for serious primality evaluation of large numbers. It probably never will be. 
 
 = Details =
 
@@ -12,4 +12,8 @@ gjsieve is a C++ application to demonstrate Proth number functionality with the 
   * k is a positive, odd integer
   * n is a positive integer such that 2^n is greater than k
  
-(in progress)
+The application runs in a basic command prompt. The user enters a value of k, then a value of n. The application then performs a calculation of the Proth number N, and subsequently attempts to factor it. If the only factors found are 1 and N, the number is prime; if other factors exist, the number is composite.
+
+The user is then given the option to either restart with new values or terminate the application.
+
+gjsieve is currently a work in progress, although it is stable. It can currently not be built or run on Mac OS X 64-bit and is untested on Mac OS X 32-bit. 
