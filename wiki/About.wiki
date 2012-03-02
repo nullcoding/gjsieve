@@ -7,7 +7,7 @@ gjsieve is a small experiment in Proth number testing. It is _not_ meant to be u
 
 = Details =
 
-gjsieve is a C++ application to demonstrate Proth number functionality with the formula originally set down by French mathematician Francois Proth N = k*(2^n)-1, where:
+gjsieve is a C++ application to demonstrate Proth number functionality with the formula originally set down by French mathematician Francois Proth N = k(2^n)-1, where:
 
   * N is a Proth number
   * k is a positive, odd integer
@@ -17,4 +17,4 @@ The application runs in a basic command prompt. The user enters a value of k, th
 
 The user is then given the option to either restart with new values or terminate the application.
 
-gjsieve is currently a work in progress, although it is stable. It can currently not be built or run on Mac OS X 64-bit and is untested on Mac OS X 32-bit. 
+gjsieve is currently a work in progress, in alpha stage, although it is stable. It can currently not be built or run on Mac OS X 64-bit and is untested on Mac OS X 32-bit. 
