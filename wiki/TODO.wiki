@@ -1,13 +1,16 @@
 #summary To-Do
 #labels Featured,Phase-Implementation
 
-= Unfinished =
+= Unfinished, high-priority =
 
   * rewrite for unsigned long
-  * allow user to pick an input value of k 1 through 50
+  *      ALSO ensure that larger numbers (k>50, n>29) do not cause maxErr
   * make iterative algorithm testing from n=2 through n=50
-  * automatically make lowest n value smallest value for which 2^n > k
   * print results of iterative algorithm to stdout
+
+= Unfinished, lower-priority = 
+
+  * automatically make lowest n value smallest value for which 2^n > k
   * display list of all primes that exist (that is all N for ( i == N )
 
 = Done = 
