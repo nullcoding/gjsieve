@@ -5,8 +5,6 @@
 
   * rewrite for unsigned long
   *      ALSO ensure that larger numbers (k>50, n>29) do not cause maxErr
-  * make iterative algorithm testing from n=2 through n=50
-  * print results of iterative algorithm to stdout
 
 = Unfinished, lower-priority = 
 
@@ -18,3 +16,5 @@
   * loop function (v2 JB)
   * prompt user for additional input or exit (v2 JB)
   * change from (if yes) to do-while (v3 GA)
+  * make iterative algorithm testing from lower to upper bound (v4 GA)
+  * print results of iterative algorithm to stdout (results.txt) (v4 JB)
