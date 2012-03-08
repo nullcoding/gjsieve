@@ -1,0 +1,388 @@
+#summary Sample results from gjsieve
+#labels Featured
+
+Look for *bold* text, but note that the actual output file does not mark primes in any way other than "x is prime!"
+
+
+= gjsieve v.0.3 =
+
+gjsieve v0.3a by G. Arico and J. Boerner (c) 2012.
+
+You chose 352453 as your value of k.
+You chose 21 as your lower bound and 25 as your upper bound.
+
+Here are the results...
+
+352453*2^21-1 is 739147513855.
+
+739147513855 is divisible by 5 and has the factors 5 and 147829502771.
+
+739147513855 appears to be composite.
+
+
+352453*2^22-1 is 1478295027711.
+
+1478295027711 is divisible by 3 and has the factors 3 and 492765009237.
+
+1478295027711 appears to be composite.
+
+
+352453*2^23-1 is 2956590055423.
+
+2956590055423 is divisible by 19 and has the factors 19 and 155610002917.
+
+2956590055423 appears to be composite.
+
+
+352453*2^24-1 is 5913180110847.
+
+5913180110847 is divisible by 3 and has the factors 3 and 1971060036949.
+
+5913180110847 appears to be composite.
+
+
+352453*2^25-1 is 11826360221695.
+
+11826360221695 is divisible by 5 and has the factors 5 and 2365272044339.
+
+11826360221695 appears to be composite.
+
+
+All done.
+
+= gjsieve v.0.3 = 
+
+gjsieve v0.3a by G. Arico and J. Boerner (c) 2012.
+
+You chose 15 as your value of k.
+You chose 14 as your lower bound and 30 as your upper bound.
+
+Here are the results...
+
+15*2^14-1 is 245759.
+
+245759 is divisible by 245759 and has the factors 245759 and 1.
+
+*245759 is prime!*
+
+
+15*2^15-1 is 491519.
+
+491519 is divisible by 7 and has the factors 7 and 70217.
+
+491519 appears to be composite.
+
+
+15*2^16-1 is 983039.
+
+983039 is divisible by 241 and has the factors 241 and 4079.
+
+983039 appears to be composite.
+
+
+15*2^17-1 is 1966079.
+
+1966079 is divisible by 1966079 and has the factors 1966079 and 1.
+
+*1966079 is prime!*
+
+
+15*2^18-1 is 3932159.
+
+3932159 is divisible by 7 and has the factors 7 and 561737.
+
+3932159 appears to be composite.
+
+
+15*2^19-1 is 7864319.
+
+7864319 is divisible by 17 and has the factors 17 and 462607.
+
+7864319 appears to be composite.
+
+
+15*2^20-1 is 15728639.
+
+15728639 is divisible by 487 and has the factors 487 and 32297.
+
+15728639 appears to be composite.
+
+
+15*2^21-1 is 31457279.
+
+31457279 is divisible by 7 and has the factors 7 and 4493897.
+
+31457279 appears to be composite.
+
+
+15*2^22-1 is 62914559.
+
+62914559 is divisible by 3361 and has the factors 3361 and 18719.
+
+62914559 appears to be composite.
+
+
+15*2^23-1 is 125829119.
+
+125829119 is divisible by 13 and has the factors 13 and 9679163.
+
+125829119 appears to be composite.
+
+
+15*2^24-1 is 251658239.
+
+251658239 is divisible by 7 and has the factors 7 and 35951177.
+
+251658239 appears to be composite.
+
+
+15*2^25-1 is 503316479.
+
+503316479 is divisible by 19 and has the factors 19 and 26490341.
+
+503316479 appears to be composite.
+
+
+15*2^26-1 is 1006632959.
+
+1006632959 is divisible by 71 and has the factors 71 and 14177929.
+
+1006632959 appears to be composite.
+
+
+15*2^27-1 is 2013265919.
+
+2013265919 is divisible by 7 and has the factors 7 and 287609417.
+
+2013265919 appears to be composite.
+
+
+15*2^28-1 is 4026531839.
+
+4026531839 is divisible by 11 and has the factors 11 and 366048349.
+
+4026531839 appears to be composite.
+
+
+15*2^29-1 is 8053063679.
+
+8053063679 is divisible by 29 and has the factors 29 and 277691851.
+
+8053063679 appears to be composite.
+
+
+15*2^30-1 is 16106127359.
+
+16106127359 is divisible by 7 and has the factors 7 and 2300875337.
+
+16106127359 appears to be composite.
+
+
+All done.
+
+= gjsieve v.0.3 =
+
+gjsieve v0.3a by G. Arico and J. Boerner (c) 2012.
+
+You chose 3 as your value of k.
+You chose 3 as your lower bound and 30 as your upper bound.
+
+Here are the results...
+
+3*2^3-1 is 23.
+
+23 is divisible by 23 and has the factors 23 and 1.
+
+*23 is prime!*
+
+
+3*2^4-1 is 47.
+
+47 is divisible by 47 and has the factors 47 and 1.
+
+*47 is prime!*
+
+
+3*2^5-1 is 95.
+
+95 is divisible by 5 and has the factors 5 and 19.
+
+95 appears to be composite.
+
+
+3*2^6-1 is 191.
+
+191 is divisible by 191 and has the factors 191 and 1.
+
+*191 is prime!*
+
+
+3*2^7-1 is 383.
+
+383 is divisible by 383 and has the factors 383 and 1.
+
+*383 is prime!*
+
+
+3*2^8-1 is 767.
+
+767 is divisible by 13 and has the factors 13 and 59.
+
+767 appears to be composite.
+
+
+3*2^9-1 is 1535.
+
+1535 is divisible by 5 and has the factors 5 and 307.
+
+1535 appears to be composite.
+
+
+3*2^10-1 is 3071.
+
+3071 is divisible by 37 and has the factors 37 and 83.
+
+3071 appears to be composite.
+
+
+3*2^11-1 is 6143.
+
+6143 is divisible by 6143 and has the factors 6143 and 1.
+
+*6143 is prime!*
+
+
+3*2^12-1 is 12287.
+
+12287 is divisible by 11 and has the factors 11 and 1117.
+
+12287 appears to be composite.
+
+
+3*2^13-1 is 24575.
+
+24575 is divisible by 5 and has the factors 5 and 4915.
+
+24575 appears to be composite.
+
+
+3*2^14-1 is 49151.
+
+49151 is divisible by 23 and has the factors 23 and 2137.
+
+49151 appears to be composite.
+
+
+3*2^15-1 is 98303.
+
+98303 is divisible by 197 and has the factors 197 and 499.
+
+98303 appears to be composite.
+
+
+3*2^16-1 is 196607.
+
+196607 is divisible by 421 and has the factors 421 and 467.
+
+196607 appears to be composite.
+
+
+3*2^17-1 is 393215.
+
+393215 is divisible by 5 and has the factors 5 and 78643.
+
+393215 appears to be composite.
+
+
+3*2^18-1 is 786431.
+
+786431 is divisible by 786431 and has the factors 786431 and 1.
+
+*786431 is prime!*
+
+
+3*2^19-1 is 1572863.
+
+1572863 is divisible by 71 and has the factors 71 and 22153.
+
+1572863 appears to be composite.
+
+
+3*2^20-1 is 3145727.
+
+3145727 is divisible by 13 and has the factors 13 and 241979.
+
+3145727 appears to be composite.
+
+
+3*2^21-1 is 6291455.
+
+6291455 is divisible by 5 and has the factors 5 and 1258291.
+
+6291455 appears to be composite.
+
+
+3*2^22-1 is 12582911.
+
+12582911 is divisible by 11 and has the factors 11 and 1143901.
+
+12582911 appears to be composite.
+
+
+3*2^23-1 is 25165823.
+
+25165823 is divisible by 19 and has the factors 19 and 1324517.
+
+25165823 appears to be composite.
+
+
+3*2^24-1 is 50331647.
+
+50331647 is divisible by 6563 and has the factors 6563 and 7669.
+
+50331647 appears to be composite.
+
+
+3*2^25-1 is 100663295.
+
+100663295 is divisible by 5 and has the factors 5 and 20132659.
+
+100663295 appears to be composite.
+
+
+3*2^26-1 is 201326591.
+
+201326591 is divisible by 1223 and has the factors 1223 and 164617.
+
+201326591 appears to be composite.
+
+
+3*2^27-1 is 402653183.
+
+402653183 is divisible by 47 and has the factors 47 and 8567089.
+
+402653183 appears to be composite.
+
+
+3*2^28-1 is 805306367.
+
+805306367 is divisible by 15683 and has the factors 15683 and 51349.
+
+805306367 appears to be composite.
+
+
+3*2^29-1 is 1610612735.
+
+1610612735 is divisible by 5 and has the factors 5 and 322122547.
+
+1610612735 appears to be composite.
+
+
+3*2^30-1 is 3221225471.
+
+3221225471 is divisible by 431 and has the factors 431 and 7473841.
+
+3221225471 appears to be composite.
+
+
+All done.
