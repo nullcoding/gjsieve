@@ -1,0 +1,7 @@
+#summary Other versions
+
+= Other Versions =
+
+In our Source section, you will find a branches subsection of SVN. There are two programs there - one for Fermat numbers (2^(2^n)-1) and Woodall numbers (2*(2^n)-1).
+
+These programs both work. Note that the Fermat tester is highly limited...
