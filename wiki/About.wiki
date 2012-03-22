@@ -32,3 +32,9 @@ In order to run again with v3, the program must be restarted. It runs a loop, bu
 Version 3 is currently the most stable, _however_ it cannot handle N values larger than 10 digits and will ask the user (in a somewhat confusing manner) to re-enter the lower bound of n if k is too high for the lower n.
 
 No version of gjsieve will currently run on Darwin kernel (OSX). Sorry.
+
+= Version 3.1 = 
+
+Version 3.1 is identical to version 3 with the exception of formatting differences for results.txt (more information is provided) and the addition of a malloc function in attempts to allocate more memory to stack. This unfortunately does not mitigate the overflow errors. 
+
+Version 3.1 also is the basis for the Fermat, Cullen, and Woodall branches of gjsieve. 
