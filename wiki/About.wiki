@@ -5,6 +5,8 @@
 
 gjsieve is a small experiment in Proth number testing. It is _not_ meant to be used for serious primality evaluation of large numbers. It probably never will be. 
 
+gjsieve has been copied and branched into several other [Versions].
+
 = Details =
 
 gjsieve is a C++ application to demonstrate Proth number functionality with the formula originally set down by French mathematician Francois Proth N = k(2^n)-1, where:
