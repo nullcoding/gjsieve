@@ -16,6 +16,6 @@ These programs all work. However, some notes about each:
   * Woodall tester works only up to n = 28.
   * Cullen tester works only up to n = 63. *However* this is proof that our program(s) can handle output larger than 11 digits.
 
-= IsItPrime = 
+=IsItPrime= 
 
 IsItPrime is a simple command-line test of a number's prime or composite properties. Although it asks for "y" or "n" input, please use 0 or 1...for now.
