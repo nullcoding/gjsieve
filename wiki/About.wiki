@@ -17,6 +17,17 @@ gjsieve is a C++ application to demonstrate Proth number functionality with the 
 
 gjsieve is currently a work in progress, in alpha stage, although it is stable. It can currently not be built or run on Mac OS X 64-bit and is untested on Mac OS X 32-bit. 
 
+== Current Version ==
+
+= gjsieve15 =
+
+The application has been completely re-written. It still runs in a basic console. This version, however, is two applications. One creates an array in a text file. The gjsieve tester application then takes each line as input and tests it for factors. 
+
+This version accomplishes the same thing as previous versions. It is, however, still limited in the range of numbers it can test.
+
+
+== Deprecated Versions ==
+
 = Version 2 = 
 
 The application runs in a basic command prompt. The user enters a value of k, then a value of n. The application then performs a calculation of the Proth number N, and subsequently attempts to factor it. If the only factors found are 1 and N, the number is prime; if other factors exist, the number is composite.
