@@ -3,18 +3,20 @@
 
 = Unfinished, high-priority =
 
-  * rewrite for unsigned long
-  *      ALSO ensure that larger numbers (k>50, n>29) do not cause maxErr
+  * Correct listing of negative numbers as factors that appears to happen at c > 2^30.
+  * See if we can make it stop testing as soon as a factor is found != 1, != N and dismiss that N as composite.
+
+
+  * *Eventually re-write for _either_ FFTW _or_ MPIR.*
+
 
 = Unfinished, lower-priority = 
 
-  * automatically make lowest n value smallest value for which 2^n > k
-  * display list of all primes that exist (that is all N for ( i == N )
+  * array input for k?
+  * arraymaker.exe calls gjsieve_tester.exe
 
 = Done = 
 
-  * loop function (v2 JB)
-  * prompt user for additional input or exit (v2 JB)
-  * change from (if yes) to do-while (v3 GA)
-  * make iterative algorithm testing from lower to upper bound (v4 GA)
-  * print results of iterative algorithm to stdout (results.txt) (v4 JB)
+  * malloc allocates c+1 bytes of memory for c = 2^n each new line of arrays.txt
+  * figure out why everything is "prime"
+  * make it work properly within conditional statements
