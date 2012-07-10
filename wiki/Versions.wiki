@@ -1,5 +1,5 @@
 #summary Other versions
-#labels Phase-Design
+#labels Phase-Design,Featured
 
 = Other Versions =
 
