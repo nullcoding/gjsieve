@@ -1,5 +1,5 @@
 #summary Sample results from gjsieve
-#labels Featured
+#labels Deprecated
 
 Look for *bold* text, but note that the actual output file does not mark primes in any way other than "x is prime!"
 
