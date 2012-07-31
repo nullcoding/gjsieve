@@ -1,0 +1,12 @@
+#summary How to use older versions
+#labels Deprecated
+
+==gjsieve version 1.5==
+
+=== How to Use ===
+
+  # Download Release.rar and unrar it.
+  # Run arraymaker.exe
+  # Run gjsieve_tester.exe
+  # Enter k.
+  # Read results.txt when it's done.
