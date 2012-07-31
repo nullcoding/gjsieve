@@ -1,5 +1,5 @@
 #summary Other versions
-#labels Phase-Design,Featured
+#labels Phase-Design,Deprecated
 
 = Other Versions =
 
