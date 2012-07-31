@@ -1,0 +1,21 @@
+#summary History of GJSieve
+#labels Featured,Phase-Support
+
+== Why? ==
+
+This was spawned from the Source page because it turned into a narrative essay!
+
+== There are a lot of versions of GJSieve ==
+
+Yep. And this is a good example, since GJSieve is what started my coding adventures months ago. See, it's like this:
+
+  * gjsieve v0.1 - this was an incredibly basic, ~100 line program that was incapable of displaying numbers longer than 11 digits. It was also sometimes wrong about a number being prime. So yeah. Along came:
+  * gjsieve v0.2 - correct, at least, but still highly limited!
+  * gjsieve v0.3 - compact and efficient, but still kind of useless because it couldm't calculate big or even sort-of-big numbers.
+
+Versions less than 1 were written mostly by G. Arico. That is certainly not to say he made mistakes. And who cares if he did? I've written way more code than he has. Therefore, I have made exponentially more mistakes! 
+
+That was early 2012. Around June/July, we got these:
+
+  * gjsieve v1.0 - totally re-written (though still highly limited) and very stable by comparison. However, it was not perfect.
+  * gjsieve v1.1 - even better and faster and smoother and generally all-around great little program that still couldn't display (let alone calculate) large numbers because of stdlib limitations.
