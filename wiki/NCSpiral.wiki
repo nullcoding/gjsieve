@@ -46,12 +46,12 @@ At large side lengths, you can still see the spiral effect!
 =How to use=
 
 You can change the value of the side length, but _only programatically_. This means editing code. It's really not hard. Simply find the line up top of the program:
-
+{{{
 #define maxlength 450UL // change this to a larger (but _even_) number if you wish
+}}}
+and change `*UL` to another number. Several conditions:
 
-and change *UL to another number. Several conditions:
-
-  * You _must_ have UL directly after the number, to tell the program to use unsigned long int
+  * You _must_ have `UL` directly after the number, to tell the program to use unsigned long int
   * It _must_ be an even number - this prevents the program from overstepping the boundaries of the square and instead creating one just the right size
 
 Beyond that, this is really not that highly configurable, nor does it need to be. 
