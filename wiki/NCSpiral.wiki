@@ -5,7 +5,7 @@ Find the latest version [http://code.google.com/p/gjsieve/downloads/detail?name=
 
 =About=
 
-This is a basic C generator for a prime spiral (Ulam's Spiral) by Jaska. 
+This is a basic C generator for a prime spiral ([http://mathworld.wolfram.com/PrimeSpiral.html Ulam's Spiral]) by Jaska. 
 
 A prime spiral (also known as Ulam's Spiral) is essentially a visual representation 
 of prime numbers. The easiest way to describe this concept is:
