@@ -13,11 +13,11 @@ Testing Alpha
 
 MuPuPriNT (MUlti PUrpose PRIme Number Tester) is a program containing five separate prime-testing programs:
 
-  *GJSieve (Proth Numbers)
-  *GJSieveC (Cullen Numbers)
-  *GJSieveW (Woodall Numbers)
-  *PythNT (Pythagorean Numbers)
-  *IsItPrime? (Any number)
+  * GJSieve (Proth Numbers)
+  * GJSieveC (Cullen Numbers)
+  * GJSieveW (Woodall Numbers)
+  * PythNT (Pythagorean Numbers)
+  * IsItPrime? (Any number)
 
 Each individual program is currently FULLY FUNCTIONAL. 
 
@@ -27,26 +27,26 @@ This means that the MATH side of things works fine! Each program will do exactly
 
 ==For Reference==
 
-  *Proth number = k*2^n +1 where k is a positive odd integer and n is a positive integer such that 2^n > k
-  *Cullen number = n*2^n +1 where n is a positive integer
-  *Woodall number = n*2^n -1 where n is a positive integer
-  *Pythagorean number = 4n +1 where n is a positive integer and the resulting number is the hypotenuse of a Pythagorean triangle
+  * Proth number = k*2^n +1 where k is a positive odd integer and n is a positive integer such that 2^n > k
+  * Cullen number = n*2^n +1 where n is a positive integer
+  * Woodall number = n*2^n -1 where n is a positive integer
+  * Pythagorean number = 4n +1 where n is a positive integer and the resulting number is the hypotenuse of a Pythagorean triangle
 
 ----
 
 ==Known Issues==
 
-  *Results files in any program will STILL sometimes print text l i k e t h i s (sorry) and/or cut off at a certain point (usually around the "formula" section. I do not know why beyond that it has something to do with character encoding (which is, by default, Unicode).
+  * Results files in any program will STILL sometimes print text l i k e t h i s (sorry) and/or cut off at a certain point (usually around the "formula" section. I do not know why beyond that it has something to do with character encoding (which is, by default, Unicode).
 
-  *Although IsItPrime? will now allow you to input very large numbers, it won't accept anything longer than 30,000 digits. This, I believe, is unchangable. But that doesn't mean I won't try to change it.
+  * Although IsItPrime? will now allow you to input very large numbers, it won't accept anything longer than 30,000 digits. This, I believe, is unchangable. But that doesn't mean I won't try to change it.
 
 ----
 
 ==Not Yet Implemented==
 
-  *The View menu is entirely useless. Still. Sorry for not having the option to dye the window purple or anything...yet.
+  * The View menu is entirely useless. Still. Sorry for not having the option to dye the window purple or anything...yet.
 
-  *The buttons are much less boring. In fact, they are downright shiny! But they will not display the icons I am telling them to...
+  * The buttons are much less boring. In fact, they are downright shiny! But they will not display the icons I am telling them to...
 
 ----
 
