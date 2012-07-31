@@ -1,0 +1,32 @@
+#summary Source Control Information
+
+== What's Source Control? == 
+
+Source Control is a way to manage source code for an application.
+
+Several versions/methods come to mind: SVN, Mercurio, Git...
+
+In our case, we have several very different applications and having just one repository would make things a bit crowded and hard to find.
+
+Plus, since the newest versions of our projects typically contain more than a single source code file, it makes considerably more sense to have a dependencies folder in the project directory, reference all of that in our IDE, and then compile locally. 
+
+== And your source is where? ==
+
+When we release a new version of an application, like most software developers, we let you know, usually on [http://ncprime.blogspot.com our blog].
+
+The Downloads section of this Google Code project contains a lot of different things - executables and archives mainly - relating to our applications and projects.
+
+Our naming convention is pretty simple. We give the project a name and a version number. That's about it. 
+
+== Are you in, like, perpetual alpha, or what? ==
+
+Kind of, but not really. 
+
+I call most things "v0.1a" when I release them for the first time ever in the history of forever. That's just good practice, since then people won't get all confused and say "where's version 1? was there a version 1? did this even exist before?" should I start off by calling something "version 2" or "version 3.5.4" just because that's how much I feel I've edited it.
+
+As with most programming, a version number less than 1 generally indicates any number of the following things:
+
+  * the program may be unstable
+  * the program has not been tested to a great extent
+  * it's not ready for public consumption...yet
+  * 
