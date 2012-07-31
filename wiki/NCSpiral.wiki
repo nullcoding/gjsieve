@@ -1,7 +1,4 @@
 #labels Featured,Phase-Support,Phase-Implementation
-========================================================================
-    CONSOLE APPLICATION : SpiralGenerator1 Project Overview
-========================================================================
 A NullCoding project
 
 This is a basic C generator for a prime spiral (Ulam's Spiral) by Jaska. 
