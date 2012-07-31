@@ -1,5 +1,5 @@
 #summary About this application
-#labels Featured,Phase-Support,Phase-Requirements
+#labels Deprecated,Phase-Support,Phase-Requirements
 
 = Introduction =
 
