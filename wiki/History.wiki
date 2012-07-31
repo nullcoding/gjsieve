@@ -19,3 +19,29 @@ That was early 2012. Around June/July, we got these:
 
   * gjsieve v1.0 - totally re-written (though still highly limited) and very stable by comparison. However, it was not perfect.
   * gjsieve v1.1 - even better and faster and smoother and generally all-around great little program that still couldn't display (let alone calculate) large numbers because of stdlib limitations.
+
+And then along came external libraries:
+
+  * gjsieve v1.5 - re-written again, though not entirely. Uses the MPIR fork of GMP for very large integer calculations. Rough alpha.
+  * gjsieve v1.5.1 - release testing alpha. Considerably more stable and very efficient. Capable of and observed calculating numbers with thousands of digits. Theoretically capable of calculating numbers up to 980M digits. 
+
+And then I realized a simple console executable did not afford the user quite enough control, so along came:
+
+  * gjsieve v1.5.4 - essentially the same programatically as 1.5.1, but operates as a pure Windows application with a straightforward but efficient graphical frontend. 
+  * gjsieve v1.5.5 - more highly optimized number testing - more accurately, compositeness testing - with a cleaner and more organized GUI
+
+==Forthcoming==
+
+  * gjsieve v1.7.0 - not different enough in terms of code to merit a re-designation of v2, yet graphically sleeker, more streamlined, and decidedly more feature-rich.
+
+Note that gjsieve v1.7.0 _is_ currently implemented in MuPuPriNT! I just haven't gotten around to upgrading the standalone program to reflect the many changes made in the version used in MuPuPriNT. 
+
+==MuPuPrint==
+
+Besides gjsieve v1.7.0 MuPuPrint includes the following, all of which are based directly on gjsieve v1.5.5 and use the same graphical framework as v1.7.0:
+
+  * gjsieveC v1.0 - tests Cullen numbers
+  * gjsieveW v1.0 - tests Woodall numbers
+  * gjsievePY v1.1 - tests Pythagorean numbers 
+
+Finally, IsItPrime v1.5 is included in MuPuPriNT.
