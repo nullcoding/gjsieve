@@ -1,7 +1,9 @@
 #summary About NCSpiral
 #labels Featured,Phase-Support,Phase-Implementation
 
-==About==
+Find the latest version [http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral.rar here].
+
+=About=
 
 This is a basic C generator for a prime spiral (Ulam's Spiral) by Jaska. 
 
