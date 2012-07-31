@@ -1,5 +1,7 @@
+#summary About NCSpiral
 #labels Featured,Phase-Support,Phase-Implementation
-A NullCoding project
+
+=A NullCoding project=
 
 This is a basic C generator for a prime spiral (Ulam's Spiral) by Jaska. 
 
@@ -39,7 +41,7 @@ At large side lengths, you can still see the spiral effect!
 
 ----
 
-How to use:
+=How to use=
 
 You can change the value of the side length, but _only programatically_. This means editing code. It's really not hard. Simply find the line up top of the program:
 
@@ -60,7 +62,7 @@ To properly observe the lines and patterns, I recommend using Notepad++ (which i
 
 ----
 
-How not to use:
+=How not to use=
 
 I recommend AGAINST making maxlength more than or even too close to 1000.
 
@@ -72,7 +74,7 @@ Additionally, remember that you cannot exceed the limitations of unsigned long i
 
 ----
 
-Other thoughts:
+=Other thoughts=
 
 I wrote this in about a day, on a whim, and based on my interest in and ongoing self-study of number theory. 
 
