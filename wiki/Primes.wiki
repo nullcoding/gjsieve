@@ -1,5 +1,5 @@
 #summary small Proth primes
-#labels Featured,Phase-Deploy
+#labels Deprecated,Phase-Deploy
 
 = Values of k and n to try =
 
