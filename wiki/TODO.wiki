@@ -1,22 +1,18 @@
 #summary To-Do
-#labels Deprecated,Phase-Implementation
+#labels Featured,Phase-Implementation
 
 = Unfinished, high-priority =
 
-  * Correct listing of negative numbers as factors that appears to happen at c > 2^30.
-  * See if we can make it stop testing as soon as a factor is found != 1, != N and dismiss that N as composite.
-
-
-  * *Eventually re-write for _either_ FFTW _or_ MPIR.*
-
+  * Fix file output, namely spacing and incomplete strings
+  * Possibly allocate more memory to alleviate "Not Responding" even though it eventually works again...more an annoyance than an issue but there might be a fix out there somewhere
 
 = Unfinished, lower-priority = 
 
-  * array input for k?
-  * arraymaker.exe calls gjsieve_tester.exe
+  * custom application icon doesn't work - fix it
+  * View menu does nothing but should probably do something
+  * resizing the application window just makes it take up the whole screen and looks ugly (but does not affect functionality)
 
 = Done = 
 
-  * malloc allocates c+1 bytes of memory for c = 2^n each new line of arrays.txt
-  * figure out why everything is "prime"
-  * make it work properly within conditional statements
+  * write the application
+  * make it work
