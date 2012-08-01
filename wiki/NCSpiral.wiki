@@ -1,7 +1,7 @@
 #summary About NCSpiral
 #labels Featured,Phase-Support,Phase-Implementation
 
-Find the latest version [http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral.rar here].
+Find the latest version for Windows[http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral.rar here] and for Mac [http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral_Mac.rar here].
 
 =About=
 
@@ -47,7 +47,7 @@ At large side lengths, you can still see the spiral effect!
 
 You can change the value of the side length, but _only programatically_. This means editing code. It's really not hard. Simply find the line up top of the program:
 {{{
-#define maxlength 450UL // change this to a larger (but _even_) number if you wish
+#define maxlength 450UL // change this to a larger (but EVEN) number if you wish
 }}}
 and change `*UL` to another number. Several conditions:
 
@@ -61,6 +61,14 @@ Also, you're going to want to do something with the results.
 It will make a text file that tells you how big the array is after it has calculated the spiral in full (the program quits automatically). If you open that text file, you likely won't get much out of it. 
 
 To properly observe the lines and patterns, I recommend using Notepad++ (which is free), since it has a zoom function. Zoom all the way out. You'll see. 
+
+----
+
+=How to use (Mac)=
+
+Exactly the same procedure for editing code, but to open the project you need XCode (which is free provided you have registered as an Apple Developer, which is also free). 
+
+If you use some other environment, I'm sure you can figure it out. The source is not complicated. There are 3 files - `SpiralGenerator.cpp, stdafx.h, steps.h` which must be included.
 
 ----
 
