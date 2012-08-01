@@ -1,7 +1,7 @@
 #summary About NCSpiral
 #labels Featured,Phase-Support,Phase-Implementation
 
-Find the latest version for Windows[http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral.rar here] and for Mac [http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral_Mac.rar here].
+Find the latest version for Windows [http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral.rar here] and for Mac [http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral_Mac.rar here].
 
 =About=
 
