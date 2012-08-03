@@ -1,5 +1,5 @@
 #summary gjsieve for Mac OSX
-#labels Featured,Phase-Implementation,Phase-Support,Phase-Deploy
+#labels Deprecated,Phase-Implementation,Phase-Support,Phase-Deploy
 
 == Overview == 
 
