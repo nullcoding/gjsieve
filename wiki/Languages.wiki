@@ -1,0 +1,26 @@
+#summary What makes our programs tick?
+#labels Featured,Phase-Support
+
+This is a reference of our programs and the languages in which they are written.
+
+== gjsieve (Windows) ==
+
+  * versions 0.1 - 1.1: C++
+  * versions 1.5 - 1.5.1: C/C++ with MPIR
+  * versions 1.5.5 - current: VC++ / Windows API / MPIR
+  
+== gjsieve (Mac) ==
+
+  * versions 0.1 - current: Objective-C / Cocoa / MPIR
+
+== MuPuPriNT ==
+
+  * versions 0.1 - current: VC++ / Windows API / MPIR
+
+== NCSpiral (Windows) ==
+
+  * versions 0.1 - current: C
+
+== NCSpiral (Mac) ==
+
+  * versions 0.1 = current: C
