@@ -5,7 +5,7 @@
 
 GJSieve for Mac is a side project of mine as I learn Objective-C and the Cocoa API.
 
-Find the current version [http://code.google.com/p/gjsieve/downloads/detail?name=gjsmac_v01.zip here].
+Find the current version [http://code.google.com/p/gjsieve/downloads/detail?name=gjsmac_v02.zip here].
 
 == Issues ==
 
