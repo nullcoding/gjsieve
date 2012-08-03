@@ -36,9 +36,9 @@ And then I realized a simple console executable did not afford the user quite en
 
 Note that gjsieve v1.7.0 _is_ currently implemented in MuPuPriNT! I just haven't gotten around to upgrading the standalone program to reflect the many changes made in the version used in MuPuPriNT. 
 
-==MuPuPrint==
+==MuPuPriNT==
 
-Besides gjsieve v1.7.0 MuPuPrint includes the following, all of which are based directly on gjsieve v1.5.5 and use the same graphical framework as v1.7.0:
+Besides gjsieve v1.7.0, MuPuPriNT includes the following, all of which are based directly on gjsieve v1.5.5 and use the same graphical framework as v1.7.0:
 
   * gjsieveC v1.0 - tests Cullen numbers
   * gjsieveW v1.0 - tests Woodall numbers
