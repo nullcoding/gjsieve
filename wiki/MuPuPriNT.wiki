@@ -3,7 +3,11 @@
 
 MuPuPriNT v0.2
 Testing Alpha
-28 July 2012
+28 July 2012 (Windows)
+
+MuPuPriNT v0.1
+Testing Alpha
+7 August 2012 (Mac)
 
 [http://ncprime.blogspot.com/ Blog!]
  
@@ -36,8 +40,6 @@ This means that the MATH side of things works fine! Each program will do exactly
 
 ==Known Issues==
 
-  * Results files in any program will STILL sometimes print text l i k e t h i s (sorry) and/or cut off at a certain point (usually around the "formula" section. I do not know why beyond that it has something to do with character encoding (which is, by default, Unicode).
-
   * Although IsItPrime? will now allow you to input very large numbers, it won't accept anything longer than 30,000 digits. This, I believe, is unchangable. But that doesn't mean I won't try to change it.
 
 ----
@@ -46,11 +48,9 @@ This means that the MATH side of things works fine! Each program will do exactly
 
   * The View menu is entirely useless. Still. Sorry for not having the option to dye the window purple or anything...yet.
 
-  * The buttons are much less boring. In fact, they are downright shiny! But they will not display the icons I am telling them to...
-
 ----
 
-==Notes==
+==Notes (Windows)==
 
 N.B: If the program says "Not Responding," WAIT! It IS working, but for some odd reason I cannot place, it will not output any kind of "Working..." text or progress indicator despite the progress bar I implemented.
 
