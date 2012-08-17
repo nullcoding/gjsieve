@@ -5,9 +5,9 @@ MuPuPriNT v0.2
 Testing Alpha
 28 July 2012 (Windows)
 
-MuPuPriNT v0.1
+MuPuPriNT v0.4
 Testing Alpha
-7 August 2012 (Mac)
+17 August 2012 (Mac)
 
 [http://ncprime.blogspot.com/ Blog!]
  
@@ -59,6 +59,10 @@ If it stops responding for more than twenty minutes, kill it, or else stop enter
 
 As always, feedback is welcome via email.
 
-Also, if you have an idea for a better name, let me know.
+==Notes (Mac)==
 
-Enjoy...
+This program was designed and built on Mountain Lion, but it may also work on Lion. I do not know about Snow Leopard, if anyone is still using that. 
+
+I do not have a Lion machine for testing so I am unsure if it will even work. If it does, the Twitter sharing option will not work and may even cause unexpected behavior.
+
+Again - this is ONLY tested on Mountain Lion 10.8! There is NO guarantee it will work on anything earlier than 10.8. Sorry.
