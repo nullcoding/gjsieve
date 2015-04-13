@@ -1,0 +1,9 @@
+# Values of k and n to try #
+
+
+  * k = 3, n = 5
+  * k = 3, n = 6
+  * k = 3, n = 8
+  * k = 3, n = 12
+  * k = 3, n = 18
+  * k = 43, n = 6

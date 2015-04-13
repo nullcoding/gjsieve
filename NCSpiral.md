@@ -1,0 +1,104 @@
+Find the latest version for Windows [here](http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral.rar) and for Mac [here](http://code.google.com/p/gjsieve/downloads/detail?name=NCSpiral_Mac.rar).
+
+# About #
+
+This is a basic C generator for a prime spiral ([Ulam's Spiral](http://mathworld.wolfram.com/PrimeSpiral.html)) by Jaska.
+
+A prime spiral (also known as Ulam's Spiral) is essentially a visual representation
+of prime numbers. The easiest way to describe this concept is:
+
+  * Imagine a square, where naturally all 4 sides are equal, and also all sides have a length that is an odd number.
+  * Now, imagine that this square is actually something like a spreadsheet, e.g in Excel.
+  * Since the square has an odd number of cells on each side, its area is also an odd number, so it has an odd number of boxes, meaning that there is a defined middle. This is a point at which there are an equal number of boxes on both sides in any direction.
+  * Put 1 in the middle cell.
+  * Now, spiral outwards in a square shape counter-clockwise in such a way that NO CELL is left blank.
+  * Done correctly, this should yield the following numbers at and around the middle:
+```
+17 16 15 14 13
+18 5  4  3  12
+19 6  1  2  11
+20 7  8  9  10 
+21 22 23 24 25
+```
+and so on and so forth (according to the conjecture) ad infinitum.
+
+But this is not the prime spiral. This is a number spiral. A prime spiral is simply this spiral minus all the composite numbers:
+```
+17          13
+   5     3  
+19    1  2  11
+   7          
+      23 
+```
+The theory, first posited by Ulam, is based on the fact that as you expand the square to have hundreds or even thousands (or more) lines, you begin seeing distinct patterns of lines, both vertical and diagonal, in many directions but at reasonably predictable intervals.
+
+The lines are formed by prime numbers. What this program does is, rather than marking or otherwise indicating the location of primes somehow (e.g highlighting them), it simply calculates a massive array and then systematically tests each entry to see if it's prime.
+
+The composite numbers are subsequently replaced with blank space equal to the amount of characters (7 here) allocated to each number.
+
+At large side lengths, you can still see the spiral effect!
+
+
+---
+
+
+# How to use #
+
+You can change the value of the side length, but _only programatically_. This means editing code. It's really not hard. Simply find the line up top of the program:
+```
+#define maxlength 450UL // change this to a larger (but EVEN) number if you wish
+```
+and change `*UL` to another number. Several conditions:
+
+  * You _must_ have `UL` directly after the number, to tell the program to use unsigned long int
+  * It _must_ be an even number - this prevents the program from overstepping the boundaries of the square and instead creating one just the right size
+
+Beyond that, this is really not that highly configurable, nor does it need to be.
+
+Also, you're going to want to do something with the results.
+
+It will make a text file that tells you how big the array is after it has calculated the spiral in full (the program quits automatically). If you open that text file, you likely won't get much out of it.
+
+To properly observe the lines and patterns, I recommend using Notepad++ (which is free), since it has a zoom function. Zoom all the way out. You'll see.
+
+
+---
+
+
+# How to use (Mac) #
+
+Exactly the same procedure for editing code, but to open the project you need XCode (which is free provided you have registered as an Apple Developer, which is also free).
+
+If you use some other environment, I'm sure you can figure it out. The source is not complicated. There are 3 files - `SpiralGenerator.cpp, stdafx.h, steps.h` which must be included.
+
+
+---
+
+
+# How not to use #
+
+I recommend AGAINST making maxlength more than or even too close to 1000.
+
+This is because array size limits are dictated not by C/C++ itself, but rather by hardware. Think of the array as a square (which it is) and also as a virtual representation of a block of memory.
+
+Every time you increase the size of the square, you also incrementally increase the amount of memory taken to create and fill that array. You are also adding more and more numbers each time you do so.
+
+Additionally, remember that you cannot exceed the limitations of unsigned long int. Of course, doing that implies having literally billions of numbers, and you'd probably way exceed the stack size limit long before you got there anyway.
+
+
+---
+
+
+# Other thoughts #
+
+I wrote this in about a day, on a whim, and based on my interest in and ongoing self-study of number theory.
+
+I have written what could only be called essays (though nothing professional) on the topic of prime number theory, particularly Ulam's Spiral. It really is fascinating, though if you think about it, it makes perfect sense that numbers, a system we made up to determine and maintain order in the world, would follow predictable patterns.
+
+The fact that prime numbers seem to appear not randomly, but semi-randomly seems to indicate that primality (even of large integers) follows a distinct pattern based, admittedly, on numerous factors (pardon the pun) - many of which we have yet to determine.
+
+Playing around with the program reveals that the larger your array is, the longer and more numerous the lines observed become. I noticed that with the inclusion of  larger numbers (i.e an array size over 300), more and more distinct and almost perfectly vertical lines appear.
+
+I'm sure there are both conceptual and mathematical ways to describe the phenomena observed in the prime spiral, but for now, we shall settle for observation.
+
+As always, comments and questions are welcome by e-mail.

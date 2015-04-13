@@ -1,0 +1,19 @@
+# Unfinished, high-priority #
+
+  * Correct listing of negative numbers as factors that appears to happen at c > 2^30.
+  * See if we can make it stop testing as soon as a factor is found != 1, != N and dismiss that N as composite.
+
+
+  * **Eventually re-write for _either_ FFTW _or_ MPIR.**
+
+
+# Unfinished, lower-priority #
+
+  * array input for k?
+  * arraymaker.exe calls gjsieve\_tester.exe
+
+# Done #
+
+  * malloc allocates c+1 bytes of memory for c = 2^n each new line of arrays.txt
+  * figure out why everything is "prime"
+  * make it work properly within conditional statements

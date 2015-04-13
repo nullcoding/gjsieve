@@ -1,0 +1,75 @@
+MuPuPriNT v0.2
+Testing Alpha
+28 July 2012 (Windows)
+
+MuPuPriNT v0.4
+Testing Alpha
+17 August 2012 (Mac)
+
+[Blog!](http://ncprime.blogspot.com/)
+
+
+---
+
+
+## About ##
+
+MuPuPriNT (MUlti PUrpose PRIme Number Tester) is a program containing five separate prime-testing programs:
+
+  * GJSieve (Proth Numbers)
+  * GJSieveC (Cullen Numbers)
+  * GJSieveW (Woodall Numbers)
+  * PythNT (Pythagorean Numbers)
+  * IsItPrime? (Any number)
+
+Each individual program is currently FULLY FUNCTIONAL.
+
+This means that the MATH side of things works fine! Each program will do exactly what it ought to. No more, no less.
+
+
+---
+
+
+## For Reference ##
+
+  * Proth number = k\*2<sup>n +1 where k is a positive odd integer and n is a positive integer such that 2</sup>n > k
+  * Cullen number = n\*2^n +1 where n is a positive integer
+  * Woodall number = n\*2^n -1 where n is a positive integer
+  * Pythagorean number = 4n +1 where n is a positive integer and the resulting number is the hypotenuse of a Pythagorean triangle
+
+
+---
+
+
+## Known Issues ##
+
+  * Although IsItPrime? will now allow you to input very large numbers, it won't accept anything longer than 30,000 digits. This, I believe, is unchangable. But that doesn't mean I won't try to change it.
+
+
+---
+
+
+## Not Yet Implemented ##
+
+  * The View menu is entirely useless. Still. Sorry for not having the option to dye the window purple or anything...yet.
+
+
+---
+
+
+## Notes (Windows) ##
+
+N.B: If the program says "Not Responding," WAIT! It IS working, but for some odd reason I cannot place, it will not output any kind of "Working..." text or progress indicator despite the progress bar I implemented.
+
+If it stops responding for more than twenty minutes, kill it, or else stop entering values of n in the tens of millions...
+
+
+As always, feedback is welcome via email.
+
+## Notes (Mac) ##
+
+This program was designed and built on Mountain Lion, but it may also work on Lion. I do not know about Snow Leopard, if anyone is still using that.
+
+I do not have a Lion machine for testing so I am unsure if it will even work. If it does, the Twitter sharing option will not work and may even cause unexpected behavior.
+
+Again - this is ONLY tested on Mountain Lion 10.8! There is NO guarantee it will work on anything earlier than 10.8. Sorry.

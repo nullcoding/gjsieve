@@ -1,0 +1,15 @@
+## Unfinished, high-priority ##
+
+  * Fix file output, namely spacing and incomplete strings
+  * Possibly allocate more memory to alleviate "Not Responding" even though it eventually works again...more an annoyance than an issue but there might be a fix out there somewhere
+
+## Unfinished, lower-priority ##
+
+  * custom application icon doesn't work - fix it
+  * View menu does nothing but should probably do something
+  * resizing the application window just makes it take up the whole screen and looks ugly (but does not affect functionality)
+
+## Done ##
+
+  * write the application
+  * make it work
